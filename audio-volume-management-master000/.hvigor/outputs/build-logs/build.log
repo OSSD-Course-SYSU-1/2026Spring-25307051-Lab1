@@ -1496,3 +1496,312 @@ Require stack:
 [2026-06-21T20:39:31.019] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-06-21T20:39:31.024] [DEBUG] debug-file - worker[0] exits with exit code 1.
 [2026-06-21T20:39:31.025] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-06-21T20:41:48.270] [DEBUG] debug-file - session manager: set active socket. socketId=GynLYFTSSdjmClZjAAAD
+[2026-06-21T20:41:48.290] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-21T20:41:48.307] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-21T20:41:48.315] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-21T20:41:48.328] [DEBUG] debug-file - Cache service initialization finished in 12 ms 
+[2026-06-21T20:41:48.329] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:41:48.339] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-21T20:41:48.339] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-21T20:41:48.340] [DEBUG] debug-file - Starting plugin build process
+[2026-06-21T20:41:48.340] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-21T20:41:48.340] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-21T20:41:48.340] [DEBUG] debug-file - App plugin creating...
+[2026-06-21T20:41:48.347] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-21T20:41:48.347] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-21T20:41:48.347] [DEBUG] debug-file - Plugin build process completed
+[2026-06-21T20:41:48.348] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-21T20:41:48.348] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-21T20:41:48.348] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-21T20:41:48.348] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-21T20:41:48.349] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-21T20:41:48.350] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master000\entry\src\ohosTest\module.json5
+[2026-06-21T20:41:48.353] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-21T20:41:48.359] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-21T20:41:48.382] [DEBUG] debug-file - Sdk init in 28 ms 
+[2026-06-21T20:41:48.387] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-06-21T20:41:48.387] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-21T20:41:48.387] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:41:48.387] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:41:48.387] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:41:48.391] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-21T20:41:48.391] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-21T20:41:48.391] [DEBUG] debug-file - Starting plugin build process
+[2026-06-21T20:41:48.391] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-21T20:41:48.394] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-21T20:41:48.397] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-21T20:41:48.397] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:41:48.397] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:41:48.398] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:41:48.399] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:41:48.399] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:41:48.400] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - Plugin build process completed
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:41:48.401] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:41:48.426] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 25 ms 
+[2026-06-21T20:41:48.426] [DEBUG] debug-file - project has submodules:entry
+[2026-06-21T20:41:48.428] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-21T20:41:48.435] [DEBUG] debug-file - load to the disk finished
+[2026-06-21T20:41:48.436] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-21T20:41:48.437] [DEBUG] debug-file - Module audio-volume-management-master000 Collected Dependency: 
+[2026-06-21T20:41:48.437] [DEBUG] debug-file - Module audio-volume-management-master000's total dependency: 0
+[2026-06-21T20:41:48.438] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-21T20:41:48.440] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-21T20:41:48.440] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-21T20:41:48.443] [DEBUG] debug-file - Configuration phase cost:115 ms 
+[2026-06-21T20:41:48.444] [DEBUG] debug-file - Configuration task cost before running: 136 ms 
+[2026-06-21T20:41:48.450] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-06-21T20:41:48.453] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.465] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 11 ms .
+[2026-06-21T20:41:48.465] [DEBUG] debug-file - entry : default@PreBuild cost memory -1.0160903930664062
+[2026-06-21T20:41:48.468] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2026-06-21T20:41:48.469] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-06-21T20:41:48.469] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.470] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04199981689453125
+[2026-06-21T20:41:48.471] [DEBUG] debug-file - runTaskFromQueue task cost before running: 163 ms 
+[2026-06-21T20:41:48.471] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2026-06-21T20:41:48.472] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-06-21T20:41:48.473] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.474] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.474] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.0850830078125
+[2026-06-21T20:41:48.474] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2026-06-21T20:41:48.476] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-06-21T20:41:48.476] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0146636962890625
+[2026-06-21T20:41:48.476] [DEBUG] debug-file - runTaskFromQueue task cost before running: 168 ms 
+[2026-06-21T20:41:48.476] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-06-21T20:41:48.478] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-06-21T20:41:48.479] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.481] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2026-06-21T20:41:48.481] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.129730224609375
+[2026-06-21T20:41:48.481] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2026-06-21T20:41:48.482] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-06-21T20:41:48.482] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.484] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2026-06-21T20:41:48.484] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.096832275390625
+[2026-06-21T20:41:48.484] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2026-06-21T20:41:48.486] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-06-21T20:41:48.486] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01471710205078125
+[2026-06-21T20:41:48.486] [DEBUG] debug-file - runTaskFromQueue task cost before running: 178 ms 
+[2026-06-21T20:41:48.486] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-06-21T20:41:48.489] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-06-21T20:41:48.495] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.496] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.497] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.363189697265625
+[2026-06-21T20:41:48.497] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+[2026-06-21T20:41:48.502] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-06-21T20:41:48.503] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'D:\test\audio-volume-management-master000\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2026-06-21T20:41:48.503] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.504] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.05657196044921875
+[2026-06-21T20:41:48.504] [DEBUG] debug-file - runTaskFromQueue task cost before running: 196 ms 
+[2026-06-21T20:41:48.504] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2026-06-21T20:41:48.507] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-06-21T20:41:48.507] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.0150146484375
+[2026-06-21T20:41:48.507] [DEBUG] debug-file - runTaskFromQueue task cost before running: 199 ms 
+[2026-06-21T20:41:48.507] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-06-21T20:41:48.509] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-06-21T20:41:48.512] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 3 ms .
+[2026-06-21T20:41:48.512] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.13067626953125
+[2026-06-21T20:41:48.513] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2026-06-21T20:41:48.514] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-06-21T20:41:48.514] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-06-21T20:41:48.515] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.528] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2026-06-21T20:41:48.528] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 14 ms .
+[2026-06-21T20:41:48.529] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.15575408935546875
+[2026-06-21T20:41:48.529] [DEBUG] debug-file - runTaskFromQueue task cost before running: 221 ms 
+[2026-06-21T20:41:48.529] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 15 ms 
+[2026-06-21T20:41:48.532] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-06-21T20:41:48.534] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.535] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.535] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.135498046875
+[2026-06-21T20:41:48.535] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2026-06-21T20:41:48.537] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-06-21T20:41:48.544] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 5 ms .
+[2026-06-21T20:41:48.544] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.2129364013671875
+[2026-06-21T20:41:48.545] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2026-06-21T20:41:48.547] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-06-21T20:41:48.550] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig pre-execution cost: 3 ms .
+[2026-06-21T20:41:48.550] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.139556884765625
+[2026-06-21T20:41:48.551] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessShareConfig...  
+[2026-06-21T20:41:48.552] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-06-21T20:41:48.552] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.553] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\startup\default\startup_config.json' does not exist.
+[2026-06-21T20:41:48.553] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.554] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.12664031982421875
+[2026-06-21T20:41:48.554] [DEBUG] debug-file - runTaskFromQueue task cost before running: 246 ms 
+[2026-06-21T20:41:48.554] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2026-06-21T20:41:48.557] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-06-21T20:41:48.558] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.02054595947265625
+[2026-06-21T20:41:48.558] [DEBUG] debug-file - runTaskFromQueue task cost before running: 250 ms 
+[2026-06-21T20:41:48.558] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2026-06-21T20:41:48.561] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-06-21T20:41:48.564] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-06-21T20:41:48.564] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.566] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.566] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.14543914794921875
+[2026-06-21T20:41:48.567] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2026-06-21T20:41:48.569] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-06-21T20:41:48.570] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.579] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 5 ms .
+[2026-06-21T20:41:48.579] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5418167114257812
+[2026-06-21T20:41:48.582] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2026-06-21T20:41:48.583] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-06-21T20:41:48.587] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2026-06-21T20:41:48.587] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.34587860107421875
+[2026-06-21T20:41:48.587] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2026-06-21T20:41:48.588] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-06-21T20:41:48.589] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-06-21T20:41:48.608] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 18 ms .
+[2026-06-21T20:41:48.608] [DEBUG] debug-file - entry : default@CompileResource cost memory -0.5684967041015625
+[2026-06-21T20:41:48.609] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2026-06-21T20:41:48.610] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-06-21T20:41:48.611] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.611] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.611] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.0793304443359375
+[2026-06-21T20:41:48.612] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2026-06-21T20:41:48.613] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-06-21T20:41:48.614] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-06-21T20:41:48.615] [DEBUG] debug-file - Task 'entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.630] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 12 ms .
+[2026-06-21T20:41:48.630] [DEBUG] debug-file - entry : default@CompileArkTS cost memory -0.974822998046875
+[2026-06-21T20:41:48.632] [INFO] debug-file - UP-TO-DATE :entry:default@CompileArkTS...  
+[2026-06-21T20:41:48.633] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-06-21T20:41:48.633] [DEBUG] debug-file - Task 'entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.637] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.15590667724609375
+[2026-06-21T20:41:48.637] [DEBUG] debug-file - runTaskFromQueue task cost before running: 329 ms 
+[2026-06-21T20:41:48.637] [INFO] debug-file - Finished :entry:default@BuildJS... after 4 ms 
+[2026-06-21T20:41:48.639] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-06-21T20:41:48.639] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.641] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 2 ms .
+[2026-06-21T20:41:48.641] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.096954345703125
+[2026-06-21T20:41:48.641] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2026-06-21T20:41:48.642] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-06-21T20:41:48.643] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-06-21T20:41:48.644] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-06-21T20:41:48.644] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 2 ms 
+[2026-06-21T20:41:48.645] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.645] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.10968780517578125
+[2026-06-21T20:41:48.645] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2026-06-21T20:41:48.646] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-06-21T20:41:48.646] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-06-21T20:41:48.647] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-06-21T20:41:48.647] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.06018829345703125
+[2026-06-21T20:41:48.647] [DEBUG] debug-file - runTaskFromQueue task cost before running: 339 ms 
+[2026-06-21T20:41:48.648] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 2 ms 
+[2026-06-21T20:41:48.650] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-06-21T20:41:48.663] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 12 ms .
+[2026-06-21T20:41:48.664] [DEBUG] debug-file - entry : default@PackageHap cost memory -1.1097412109375
+[2026-06-21T20:41:48.665] [INFO] debug-file - UP-TO-DATE :entry:default@PackageHap...  
+[2026-06-21T20:41:48.666] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-06-21T20:41:48.675] [DEBUG] debug-file - entry : default@PackingCheck cost memory 0.6331100463867188
+[2026-06-21T20:41:48.675] [DEBUG] debug-file - runTaskFromQueue task cost before running: 367 ms 
+[2026-06-21T20:41:48.676] [INFO] debug-file - Finished :entry:default@PackingCheck... after 10 ms 
+[2026-06-21T20:41:48.678] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-06-21T20:41:48.678] [WARN] debug-file - No signingConfig found for product default
+[2026-06-21T20:41:48.680] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the output file 'D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-signed.hap' does not exist.
+[2026-06-21T20:41:48.680] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2026-06-21T20:41:48.680] [DEBUG] debug-file - entry : default@SignHap cost memory 0.12586212158203125
+[2026-06-21T20:41:48.680] [DEBUG] debug-file - runTaskFromQueue task cost before running: 372 ms 
+[2026-06-21T20:41:48.681] [INFO] debug-file - Finished :entry:default@SignHap... after 3 ms 
+[2026-06-21T20:41:48.682] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-06-21T20:41:48.684] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.0866241455078125
+[2026-06-21T20:41:48.684] [DEBUG] debug-file - runTaskFromQueue task cost before running: 376 ms 
+[2026-06-21T20:41:48.684] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 2 ms 
+[2026-06-21T20:41:48.685] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-06-21T20:41:48.685] [DEBUG] debug-file - entry : assembleHap cost memory 0.0128326416015625
+[2026-06-21T20:41:48.685] [DEBUG] debug-file - runTaskFromQueue task cost before running: 377 ms 
+[2026-06-21T20:41:48.685] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-06-21T20:41:48.695] [INFO] debug-file - BUILD SUCCESSFUL in 386 ms 
+[2026-06-21T20:41:48.695] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2026-06-21T20:41:48.696] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\test\audio-volume-management-master000\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-06-21T20:41:48.696] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\test\audio-volume-management-master000\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2026-06-21T20:41:48.697] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-06-21T20:41:48.698] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-06-21T20:41:48.699] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-06-21T20:41:48.700] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:3 ms .
+[2026-06-21T20:41:48.700] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2026-06-21T20:41:48.700] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2026-06-21T20:41:48.700] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessShareConfig is up-to-date.
+[2026-06-21T20:41:48.700] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-21T20:41:48.701] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-06-21T20:41:48.701] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-06-21T20:41:48.701] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2026-06-21T20:41:48.701] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2026-06-21T20:41:48.701] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2026-06-21T20:41:48.702] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2026-06-21T20:41:48.702] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2026-06-21T20:41:48.702] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileArkTS is up-to-date.
+[2026-06-21T20:41:48.704] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-06-21T20:41:48.704] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-06-21T20:41:48.705] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-06-21T20:41:48.705] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-06-21T20:41:48.705] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-06-21T20:41:48.707] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-21T20:41:48.707] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-06-21T20:41:48.707] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:5 ms .
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PackageHap is up-to-date.
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-06-21T20:41:48.708] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-06-21T20:41:48.709] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2026-06-21T20:41:48.709] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-06-21T20:41:48.709] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-06-21T20:41:48.710] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\symbol cache.
+[2026-06-21T20:41:48.710] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2026-06-21T20:41:48.759] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-06-21T20:41:48.760] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-21T20:41:48.768] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-21T20:41:48.769] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-21T20:41:48.769] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-21T20:41:48.769] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
