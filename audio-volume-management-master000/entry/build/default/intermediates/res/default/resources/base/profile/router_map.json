@@ -1,0 +1,1 @@
+{"routerMap":[{"name":"player","pageSourceFile":"src/main/ets/pages/Player.ets","buildFunction":"PlayerBuilder","data":{"description":"this is player page"},"ohmurl":"@normalized:N&&&entry/src/main/ets/pages/Player&","bundleName":"com.example.audiostreamvolumemanagement","moduleName":"entry"}]}

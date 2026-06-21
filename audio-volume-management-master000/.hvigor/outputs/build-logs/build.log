@@ -1,0 +1,1498 @@
+[2026-06-17T22:41:25.087] [DEBUG] debug-file - session manager: set active socket. socketId=B2JrGQGRAXAFl74nAAAD
+[2026-06-17T22:41:25.101] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:25.113] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-17T22:41:25.118] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-17T22:41:25.119] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-06-17T22:41:25.119] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-06-17T22:41:25.120] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:25.131] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T22:41:25.131] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T22:41:25.132] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T22:41:25.132] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-17T22:41:25.132] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-17T22:41:25.132] [DEBUG] debug-file - App plugin creating...
+[2026-06-17T22:41:25.140] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-17T22:41:25.140] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-17T22:41:25.140] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T22:41:25.140] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-17T22:41:25.140] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-17T22:41:25.141] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-17T22:41:25.141] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-17T22:41:25.142] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-17T22:41:25.144] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master - 000\entry\src\ohosTest\module.json5
+[2026-06-17T22:41:25.147] [DEBUG] debug-file - D:\test\audio-volume-management-master - 000\build\cache\default\remote_hsp\remoteHspCache.json not exists.
+[2026-06-17T22:41:25.152] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-17T22:41:25.178] [DEBUG] debug-file - Sdk init in 30 ms 
+[2026-06-17T22:41:25.182] [DEBUG] debug-file - Project task initialization takes 3 ms 
+[2026-06-17T22:41:25.182] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T22:41:25.182] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:25.182] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:25.182] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:25.188] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T22:41:25.188] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T22:41:25.188] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T22:41:25.188] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-17T22:41:25.189] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master - 000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-17T22:41:25.192] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T22:41:25.194] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:25.195] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:25.195] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:25.195] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:25.195] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:25.195] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:25.197] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:25.214] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 18 ms 
+[2026-06-17T22:41:25.214] [DEBUG] debug-file - project has submodules:entry
+[2026-06-17T22:41:25.216] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-17T22:41:25.221] [DEBUG] debug-file - load to the disk finished
+[2026-06-17T22:41:25.222] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T22:41:25.222] [DEBUG] debug-file - Module audio-volume-management-master - 000 Collected Dependency: 
+[2026-06-17T22:41:25.223] [DEBUG] debug-file - Module audio-volume-management-master - 000's total dependency: 0
+[2026-06-17T22:41:25.223] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T22:41:25.225] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-17T22:41:25.225] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-17T22:41:25.226] [DEBUG] debug-file - Configuration phase cost:107 ms 
+[2026-06-17T22:41:25.227] [DEBUG] debug-file - Configuration task cost before running: 114 ms 
+[2026-06-17T22:41:25.227] [DEBUG] debug-file - Executing task :entry:clean
+[2026-06-17T22:41:25.228] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-06-17T22:41:25.228] [DEBUG] debug-file - entry : clean cost memory 0.227935791015625
+[2026-06-17T22:41:25.229] [DEBUG] debug-file - runTaskFromQueue task cost before running: 115 ms 
+[2026-06-17T22:41:25.229] [INFO] debug-file - Finished :entry:clean... after 2 ms 
+[2026-06-17T22:41:25.229] [DEBUG] debug-file - Executing task ::clean
+[2026-06-17T22:41:25.229] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-06-17T22:41:25.229] [DEBUG] debug-file - audio-volume-management-master - 000 : clean cost memory 0.0256195068359375
+[2026-06-17T22:41:25.229] [DEBUG] debug-file - runTaskFromQueue task cost before running: 116 ms 
+[2026-06-17T22:41:25.230] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-06-17T22:41:25.230] [DEBUG] debug-file - Executing task :entry:init
+[2026-06-17T22:41:25.230] [DEBUG] debug-file - entry : init cost memory 0.01415252685546875
+[2026-06-17T22:41:25.230] [DEBUG] debug-file - runTaskFromQueue task cost before running: 117 ms 
+[2026-06-17T22:41:25.230] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-06-17T22:41:25.230] [DEBUG] debug-file - Executing task ::init
+[2026-06-17T22:41:25.230] [DEBUG] debug-file - audio-volume-management-master - 000 : init cost memory 0.013031005859375
+[2026-06-17T22:41:25.231] [DEBUG] debug-file - runTaskFromQueue task cost before running: 117 ms 
+[2026-06-17T22:41:25.231] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-06-17T22:41:25.240] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T22:41:25.241] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-06-17T22:41:25.245] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-06-17T22:41:25.246] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-17T22:41:25.250] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T22:41:25.251] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T22:41:25.251] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:25.252] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:51.720] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-17T22:41:51.838] [DEBUG] debug-file - env: daemon=true
+[2026-06-17T22:41:51.722] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-17T22:41:52.622] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-06-17T22:41:52.633] [DEBUG] debug-file - java daemon started at port 45050 pid 29920
+[2026-06-17T22:41:52.663] [DEBUG] debug-file - session manager: set active socket. socketId=7Qw9-loyrj-jvRqRAAAB
+[2026-06-17T22:41:53.413] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:53.420] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-17T22:41:53.421] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-17T22:41:53.422] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-17T22:41:53.423] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-17T22:41:53.424] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-17T22:41:53.429] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-17T22:41:53.430] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-06-17T22:41:53.432] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:55.795] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T22:41:55.796] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T22:41:55.796] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T22:41:55.796] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-17T22:41:55.797] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-17T22:41:55.797] [DEBUG] debug-file - App plugin creating...
+[2026-06-17T22:41:56.003] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-17T22:41:56.004] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-17T22:41:56.004] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T22:41:56.005] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-17T22:41:56.005] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-17T22:41:56.006] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-17T22:41:56.006] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-17T22:41:56.008] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-17T22:41:56.009] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master - 000\entry\src\ohosTest\module.json5
+[2026-06-17T22:41:56.016] [DEBUG] debug-file - D:\test\audio-volume-management-master - 000\build\cache\default\remote_hsp\remoteHspCache.json not exists.
+[2026-06-17T22:41:56.019] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-17T22:41:56.023] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-17T22:41:56.025] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-17T22:41:56.052] [DEBUG] debug-file - Sdk init in 35 ms 
+[2026-06-17T22:41:56.057] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-06-17T22:41:56.057] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T22:41:56.057] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:56.057] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T22:41:56.058] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:56.063] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T22:41:56.063] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T22:41:56.063] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T22:41:56.064] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-17T22:41:56.064] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master - 000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-17T22:41:56.077] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:56.078] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T22:41:56.079] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T22:41:56.080] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T22:41:56.080] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T22:41:56.080] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T22:41:56.080] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T22:41:56.083] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-06-17T22:41:56.083] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-17T22:41:56.083] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-17T22:41:56.083] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T22:41:56.083] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T22:41:56.084] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:56.084] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T22:41:56.106] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 22 ms 
+[2026-06-17T22:41:56.106] [DEBUG] debug-file - project has submodules:entry
+[2026-06-17T22:41:56.107] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-17T22:41:56.114] [DEBUG] debug-file - load to the disk finished
+[2026-06-17T22:41:56.115] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T22:41:56.117] [DEBUG] debug-file - Module audio-volume-management-master - 000 Collected Dependency: 
+[2026-06-17T22:41:56.117] [DEBUG] debug-file - Module audio-volume-management-master - 000's total dependency: 0
+[2026-06-17T22:41:56.118] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T22:41:56.122] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-17T22:41:56.122] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-17T22:41:56.125] [DEBUG] debug-file - Configuration phase cost:2 s 695 ms 
+[2026-06-17T22:41:56.126] [DEBUG] debug-file - Configuration task cost before running: 2 s 701 ms 
+[2026-06-17T22:41:56.126] [DEBUG] debug-file - Executing task :entry:init
+[2026-06-17T22:41:56.127] [DEBUG] debug-file - entry : init cost memory 0.262176513671875
+[2026-06-17T22:41:56.127] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 702 ms 
+[2026-06-17T22:41:56.127] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-06-17T22:41:56.128] [DEBUG] debug-file - Executing task ::init
+[2026-06-17T22:41:56.128] [DEBUG] debug-file - audio-volume-management-master - 000 : init cost memory 0.01377105712890625
+[2026-06-17T22:41:56.128] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 703 ms 
+[2026-06-17T22:41:56.128] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-06-17T22:41:56.141] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T22:41:56.141] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-06-17T22:41:56.148] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T22:41:56.149] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Cleanup worker 0.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Cleanup worker 1.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-06-17T22:41:56.153] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-17T22:41:56.154] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-17T22:41:56.157] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:56.158] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T22:41:56.160] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-06-17T22:41:56.161] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-06-17T23:17:33.478] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-17T23:17:33.572] [DEBUG] debug-file - env: daemon=true
+[2026-06-17T23:17:33.480] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-17T23:17:34.296] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-06-17T23:17:34.310] [DEBUG] debug-file - java daemon started at port 45050 pid 19624
+[2026-06-17T23:17:34.340] [DEBUG] debug-file - session manager: set active socket. socketId=mGQHUBcagp_YsyySAAAB
+[2026-06-17T23:17:35.081] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:17:35.087] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-17T23:17:35.088] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-17T23:17:35.089] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-17T23:17:35.091] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-17T23:17:35.093] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-17T23:17:35.098] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-17T23:17:35.099] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-06-17T23:17:35.101] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T23:17:36.853] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T23:17:36.854] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T23:17:36.854] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:17:36.855] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-17T23:17:36.855] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-17T23:17:36.855] [DEBUG] debug-file - App plugin creating...
+[2026-06-17T23:17:36.993] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-17T23:17:36.993] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-17T23:17:36.993] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:17:36.994] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-17T23:17:36.994] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-17T23:17:36.994] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-17T23:17:36.994] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-17T23:17:36.995] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-17T23:17:36.997] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master - 000\entry\src\ohosTest\module.json5
+[2026-06-17T23:17:37.002] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-17T23:17:37.004] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-17T23:17:37.006] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-17T23:17:37.007] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-17T23:17:37.040] [DEBUG] debug-file - Sdk init in 37 ms 
+[2026-06-17T23:17:37.045] [DEBUG] debug-file - Project task initialization takes 4 ms 
+[2026-06-17T23:17:37.046] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:17:37.046] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T23:17:37.046] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\hvigorfile.ts
+[2026-06-17T23:17:37.046] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T23:17:37.053] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T23:17:37.054] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T23:17:37.054] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:17:37.054] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-17T23:17:37.055] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master - 000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-17T23:17:37.067] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:17:37.067] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:17:37.067] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:17:37.067] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:17:37.068] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:17:37.069] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T23:17:37.072] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master - 000\entry\hvigorfile.ts
+[2026-06-17T23:17:37.090] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 18 ms 
+[2026-06-17T23:17:37.090] [DEBUG] debug-file - project has submodules:entry
+[2026-06-17T23:17:37.091] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-17T23:17:37.097] [DEBUG] debug-file - load to the disk finished
+[2026-06-17T23:17:37.099] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:17:37.101] [DEBUG] debug-file - Module audio-volume-management-master - 000 Collected Dependency: 
+[2026-06-17T23:17:37.101] [DEBUG] debug-file - Module audio-volume-management-master - 000's total dependency: 0
+[2026-06-17T23:17:37.102] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:17:37.104] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-17T23:17:37.104] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-17T23:17:37.110] [DEBUG] debug-file - Configuration phase cost:2 s 11 ms 
+[2026-06-17T23:17:37.112] [DEBUG] debug-file - Configuration task cost before running: 2 s 19 ms 
+[2026-06-17T23:17:37.113] [DEBUG] debug-file - Executing task :entry:init
+[2026-06-17T23:17:37.113] [DEBUG] debug-file - entry : init cost memory 0.01647186279296875
+[2026-06-17T23:17:37.114] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 21 ms 
+[2026-06-17T23:17:37.114] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-06-17T23:17:37.114] [DEBUG] debug-file - Executing task ::init
+[2026-06-17T23:17:37.115] [DEBUG] debug-file - audio-volume-management-master - 000 : init cost memory 0.01378631591796875
+[2026-06-17T23:17:37.115] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 22 ms 
+[2026-06-17T23:17:37.115] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-06-17T23:17:37.126] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T23:17:37.126] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-06-17T23:17:37.134] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T23:17:37.134] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T23:17:37.140] [DEBUG] debug-file - Cleanup worker 0.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Cleanup worker 1.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-06-17T23:17:37.141] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-17T23:17:37.142] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-17T23:17:37.145] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:17:37.146] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:17:37.149] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-06-17T23:17:37.149] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-06-17T23:30:48.933] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-17T23:30:49.390] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-17T23:30:51.126] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-06-17T23:30:51.129] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:30:51.286] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-17T23:30:51.285] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-17T23:30:51.290] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-17T23:30:51.303] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-17T23:30:51.343] [DEBUG] debug-file - Project task initialization takes 7 ms 
+[2026-06-17T23:30:51.363] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:30:51.349] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- D:\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-06-17T23:30:48.935] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-17T23:30:51.370] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-17T23:30:51.368] [DEBUG] debug-file - project has submodules:entry
+[2026-06-17T23:30:51.380] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:30:51.419] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-17T23:30:49.390] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-06-17T23:30:51.127] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-06-17T23:30:51.286] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-17T23:30:51.129] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-17T23:30:51.285] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-17T23:30:51.290] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master000\entry\src\ohosTest\module.json5
+[2026-06-17T23:30:51.335] [DEBUG] debug-file - Sdk init in 38 ms 
+[2026-06-17T23:30:51.343] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:30:51.363] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:48.937] [DEBUG] debug-file - env: daemon=false
+[2026-06-17T23:30:51.375] [DEBUG] debug-file - load to the disk finished
+[2026-06-17T23:30:51.381] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-17T23:30:51.421] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-17T23:30:49.392] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:51.287] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-17T23:30:51.129] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-17T23:30:51.285] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:30:51.295] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-17T23:30:51.343] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:51.363] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:48.937] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-06-17T23:30:51.381] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-06-17T23:30:51.377] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:30:51.287] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-17T23:30:51.129] [DEBUG] debug-file - App plugin creating...
+[2026-06-17T23:30:51.298] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-17T23:30:51.343] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Clear worker 0.
+[2026-06-17T23:30:51.384] [DEBUG] debug-file - Configuration phase cost:1 s 994 ms 
+[2026-06-17T23:30:51.378] [DEBUG] debug-file - Module audio-volume-management-master000 Collected Dependency: 
+[2026-06-17T23:30:51.300] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:51.344] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-06-17T23:30:51.386] [DEBUG] debug-file - Configuration task cost before running: 2 s 5 ms 
+[2026-06-17T23:30:51.378] [DEBUG] debug-file - Module audio-volume-management-master000's total dependency: 0
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-17T23:30:51.348] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-06-17T23:30:51.386] [DEBUG] debug-file - Executing task :entry:init
+[2026-06-17T23:30:51.348] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-17T23:30:51.386] [DEBUG] debug-file - entry : init cost memory 0.014129638671875
+[2026-06-17T23:30:51.348] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Clear worker 1.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:51.386] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 6 ms 
+[2026-06-17T23:30:51.348] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:51.387] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:51.387] [DEBUG] debug-file - Executing task ::init
+[2026-06-17T23:30:51.424] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:51.387] [DEBUG] debug-file - audio-volume-management-master000 : init cost memory 0.0113677978515625
+[2026-06-17T23:30:51.425] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:51.387] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 7 ms 
+[2026-06-17T23:30:51.429] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-06-17T23:30:51.387] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:30:51.430] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-06-17T23:30:51.398] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:51.431] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-06-17T23:30:51.399] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:51.416] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:51.416] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:51.364] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:51.365] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T23:30:51.367] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-06-17T23:30:51.367] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-17T23:30:51.367] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-17T23:30:51.367] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:30:51.367] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:30:51.368] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:51.368] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:55.191] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-17T23:30:55.285] [DEBUG] debug-file - env: daemon=true
+[2026-06-17T23:30:55.192] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-17T23:30:56.023] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-06-17T23:30:56.036] [DEBUG] debug-file - java daemon started at port 45050 pid 7972
+[2026-06-17T23:30:56.063] [DEBUG] debug-file - session manager: set active socket. socketId=2CJkg2QyAfB_1trpAAAB
+[2026-06-17T23:30:56.743] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:30:56.750] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-17T23:30:56.750] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-17T23:30:56.752] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-17T23:30:56.754] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-17T23:30:56.757] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-17T23:30:56.766] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-17T23:30:56.767] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-06-17T23:30:56.769] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:58.510] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T23:30:58.510] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T23:30:58.511] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:30:58.511] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-17T23:30:58.511] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-17T23:30:58.511] [DEBUG] debug-file - App plugin creating...
+[2026-06-17T23:30:58.662] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-17T23:30:58.663] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-17T23:30:58.663] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:30:58.663] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-17T23:30:58.664] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-17T23:30:58.664] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-17T23:30:58.664] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-17T23:30:58.666] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-17T23:30:58.667] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master000\entry\src\ohosTest\module.json5
+[2026-06-17T23:30:58.672] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-17T23:30:58.674] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-17T23:30:58.676] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-17T23:30:58.677] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-17T23:30:58.705] [DEBUG] debug-file - Sdk init in 32 ms 
+[2026-06-17T23:30:58.711] [DEBUG] debug-file - Project task initialization takes 6 ms 
+[2026-06-17T23:30:58.712] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:30:58.712] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:58.712] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-17T23:30:58.713] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:58.718] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-17T23:30:58.718] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-17T23:30:58.718] [DEBUG] debug-file - Starting plugin build process
+[2026-06-17T23:30:58.719] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-17T23:30:58.720] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-17T23:30:58.734] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:30:58.735] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:58.735] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:58.736] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-17T23:30:58.737] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-17T23:30:58.741] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - Plugin build process completed
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:58.742] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-17T23:30:58.764] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 22 ms 
+[2026-06-17T23:30:58.765] [DEBUG] debug-file - project has submodules:entry
+[2026-06-17T23:30:58.767] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-17T23:30:58.775] [DEBUG] debug-file - load to the disk finished
+[2026-06-17T23:30:58.776] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:30:58.779] [DEBUG] debug-file - Module audio-volume-management-master000 Collected Dependency: 
+[2026-06-17T23:30:58.779] [DEBUG] debug-file - Module audio-volume-management-master000's total dependency: 0
+[2026-06-17T23:30:58.780] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-17T23:30:58.784] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-17T23:30:58.784] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-17T23:30:58.788] [DEBUG] debug-file - Configuration phase cost:2 s 21 ms 
+[2026-06-17T23:30:58.790] [DEBUG] debug-file - Configuration task cost before running: 2 s 32 ms 
+[2026-06-17T23:30:58.798] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-06-17T23:30:58.800] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.945] [DEBUG] debug-file - current product is not Atomic service.
+[2026-06-17T23:30:58.946] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [ { JAVA_HOME: 'D:\\DevEco Studio\\jbr' }, { CLASSPATH: undefined } ]
+[2026-06-17T23:30:58.946] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\DevEco Studio\\tools\\node' } ]
+[2026-06-17T23:30:58.947] [DEBUG] debug-file - entry : default@PreBuild cost memory 8.857803344726562
+[2026-06-17T23:30:58.947] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 190 ms 
+[2026-06-17T23:30:58.949] [INFO] debug-file - Finished :entry:default@PreBuild... after 149 ms 
+[2026-06-17T23:30:58.950] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-06-17T23:30:58.950] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.950] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04270172119140625
+[2026-06-17T23:30:58.950] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 193 ms 
+[2026-06-17T23:30:58.950] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2026-06-17T23:30:58.952] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-06-17T23:30:58.953] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.957] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.06256866455078125
+[2026-06-17T23:30:58.957] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 200 ms 
+[2026-06-17T23:30:58.957] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 5 ms 
+[2026-06-17T23:30:58.958] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-06-17T23:30:58.958] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0144805908203125
+[2026-06-17T23:30:58.958] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 201 ms 
+[2026-06-17T23:30:58.958] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-06-17T23:30:58.960] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-06-17T23:30:58.960] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.961] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-06-17T23:30:58.961] [DEBUG] debug-file - Change app compile API version with '6.0.2.130'
+[2026-06-17T23:30:58.961] [DEBUG] debug-file - Change app target API version with '60002022'
+[2026-06-17T23:30:58.961] [DEBUG] debug-file - Change app minimum API version with '60001021'
+[2026-06-17T23:30:58.961] [DEBUG] debug-file - Use cli appEnvironment
+[2026-06-17T23:30:58.963] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1514892578125
+[2026-06-17T23:30:58.963] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 206 ms 
+[2026-06-17T23:30:58.963] [INFO] debug-file - Finished :entry:default@MergeProfile... after 4 ms 
+[2026-06-17T23:30:58.964] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-06-17T23:30:58.965] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.968] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.0653533935546875
+[2026-06-17T23:30:58.968] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 211 ms 
+[2026-06-17T23:30:58.968] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 4 ms 
+[2026-06-17T23:30:58.970] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-06-17T23:30:58.970] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01471710205078125
+[2026-06-17T23:30:58.970] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 213 ms 
+[2026-06-17T23:30:58.971] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-06-17T23:30:58.974] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-06-17T23:30:58.978] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.979] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.295867919921875
+[2026-06-17T23:30:58.979] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 222 ms 
+[2026-06-17T23:30:58.980] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 6 ms 
+[2026-06-17T23:30:58.984] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-06-17T23:30:58.984] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.0291595458984375
+[2026-06-17T23:30:58.984] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 227 ms 
+[2026-06-17T23:30:58.984] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2026-06-17T23:30:58.985] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-06-17T23:30:58.985] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014862060546875
+[2026-06-17T23:30:58.986] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 228 ms 
+[2026-06-17T23:30:58.986] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-06-17T23:30:58.987] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-06-17T23:30:58.990] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***t', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2026-06-17T23:30:58.992] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.111572265625
+[2026-06-17T23:30:58.992] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 235 ms 
+[2026-06-17T23:30:58.993] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 5 ms 
+[2026-06-17T23:30:58.994] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-06-17T23:30:58.994] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-06-17T23:30:58.995] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:58.995] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.2425689697265625
+[2026-06-17T23:30:58.995] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 238 ms 
+[2026-06-17T23:30:58.995] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2026-06-17T23:30:58.997] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-06-17T23:30:58.998] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:59.000] [DEBUG] debug-file - [
+  'D:\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '21'
+]
+[2026-06-17T23:30:59.877] [DEBUG] debug-file - 13.0.1.0
+[2026-06-17T23:30:59.879] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-06-17T23:30:59.880] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.0644683837890625
+[2026-06-17T23:30:59.880] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 123 ms 
+[2026-06-17T23:30:59.880] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 884 ms 
+[2026-06-17T23:30:59.881] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-06-17T23:30:59.887] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.17462158203125
+[2026-06-17T23:30:59.887] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 130 ms 
+[2026-06-17T23:30:59.888] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 6 ms 
+[2026-06-17T23:30:59.889] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-06-17T23:30:59.892] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.07498931884765625
+[2026-06-17T23:30:59.892] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 135 ms 
+[2026-06-17T23:30:59.892] [INFO] debug-file - Finished :entry:default@ProcessShareConfig... after 3 ms 
+[2026-06-17T23:30:59.894] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-06-17T23:30:59.894] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:59.895] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.0800628662109375
+[2026-06-17T23:30:59.895] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 138 ms 
+[2026-06-17T23:30:59.896] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2026-06-17T23:30:59.897] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-06-17T23:30:59.898] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0269012451171875
+[2026-06-17T23:30:59.898] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 141 ms 
+[2026-06-17T23:30:59.898] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2026-06-17T23:30:59.899] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-06-17T23:30:59.902] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-06-17T23:30:59.902] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:59.905] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.11455535888671875
+[2026-06-17T23:30:59.905] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 148 ms 
+[2026-06-17T23:30:59.906] [INFO] debug-file - Finished :entry:default@ProcessResource... after 5 ms 
+[2026-06-17T23:30:59.908] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-06-17T23:30:59.909] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:30:59.918] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.56060791015625
+[2026-06-17T23:30:59.918] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 161 ms 
+[2026-06-17T23:30:59.922] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 10 ms 
+[2026-06-17T23:30:59.923] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-06-17T23:30:59.928] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-06-17T23:30:59.929] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.26787567138671875
+[2026-06-17T23:30:59.930] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 172 ms 
+[2026-06-17T23:30:59.930] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 7 ms 
+[2026-06-17T23:30:59.931] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-06-17T23:30:59.932] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-06-17T23:30:59.940] [DEBUG] debug-file - Use tool [D:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-06-17T23:30:59.941] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 269586432,
+  heapTotal: 167161856,
+  heapUsed: 143619168,
+  external: 3094726,
+  arrayBuffers: 193464
+} os memoryUsage :12.755439758300781
+[2026-06-17T23:31:00.485] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-06-17T23:31:00.912] [DEBUG] debug-file - Info: hardware concurrency count is : 24
+Info: thread count is : 24
+
+[2026-06-17T23:31:00.912] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-06-17T23:31:00.914] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-06-17T23:31:00.925] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+Warning: 'D:\test\audio-volume-management-master000\entry\src\main\resources\base\media\background.png' is defined repeatedly.
+
+[2026-06-17T23:31:00.925] [DEBUG] debug-file - Warning: 'D:\test\audio-volume-management-master000\entry\src\main\resources\base\media\foreground.png' is defined repeatedly.
+Warning: 'D:\test\audio-volume-management-master000\entry\src\main\resources\base\media\layered_image.json' is defined repeatedly.
+
+[2026-06-17T23:31:00.935] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-06-17T23:31:00.942] [DEBUG] debug-file - 06-17 23:31:00.942  8160 29256 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+06-17 23:31:00.942  8160 29256 E C01400/ImageTranscoderUtils: ImageFilter IN D:\test\audio-volume-management-master000\AppScope\resources\base\media\background.png
+
+[2026-06-17T23:31:00.978] [DEBUG] debug-file - 06-17 23:31:00.978  8160 29256 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+06-17 23:31:00.978  8160 29256 E C01400/ImageTranscoderUtils: ImageFilter IN D:\test\audio-volume-management-master000\AppScope\resources\base\media\foreground.png
+
+[2026-06-17T23:31:01.010] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2026-06-17T23:31:01.011] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\test\audio-volume-management-master000\AppScope\resources\base\media\background.png
+Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at D:\test\audio-volume-management-master000\AppScope\resources\base\media\foreground.png
+Warning: D:\test\audio-volume-management-master000\AppScope\resources\base\media\layered_image.json is not png format
+
+[2026-06-17T23:31:01.012] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-06-17T23:31:01.013] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-06-17T23:31:01.090] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.9861221313476562
+[2026-06-17T23:31:01.090] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 333 ms 
+[2026-06-17T23:31:01.092] [INFO] debug-file - Finished :entry:default@CompileResource... after 1 s 159 ms 
+[2026-06-17T23:31:01.093] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-06-17T23:31:01.094] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:01.097] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.2925872802734375
+[2026-06-17T23:31:01.097] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 340 ms 
+[2026-06-17T23:31:01.097] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 4 ms 
+[2026-06-17T23:31:01.099] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-06-17T23:31:01.100] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-06-17T23:31:01.101] [DEBUG] debug-file - Task 'entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:01.114] [DEBUG] debug-file - build config:
+[2026-06-17T23:31:01.114] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'D:\\test\\audio-volume-management-master000\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'D:\\test\\audio-volume-management-master000\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'D:\\test\\audio-volume-management-master000',
+  compileSdkVersion: 22,
+  compatibleSdkVersion: 21,
+  originCompatibleSdkVersion: '6.0.1(21)',
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***t',
+  etsLoaderVersion: '6.0.2.130',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'D:\\test\\audio-volume-management-master000\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '2a872c6c29483117e447c65b89a958db4c21ce7fe2a57399c813f508e4aa3966',
+  externalApiPaths: [ 'D:\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 22,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  buildDir: 'D:\\test\\audio-volume-management-master000\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  pkgContextInfo: {
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  useGetCurrentBundleName: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'D:\\test\\audio-volume-management-master000' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    lazyImportExclude: '',
+    lazyImportInclude: '',
+    ignoreCrossplatformCheck: false,
+    isHarDeduplicateEnabled: false,
+    skipOhModulesLint: false,
+    enableStrictCheckOHModule: false,
+    disableSendableCheckRules: [],
+    useDeclarationFileSignature: false,
+    customizedOptions: undefined,
+    integratedHsp: false,
+    isPreloadSoEnabled: false
+  },
+  executionMode: 'memory',
+  arkCompileCachePath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  autoLazyFilter: undefined,
+  isHarDeduplicateEnabled: false,
+  intermediateHarDuplicateDirPath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\har_duplicate\\default',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  lazyImportExclude: '',
+  lazyImportInclude: '',
+  ignoreCrossplatformCheck: false,
+  skipOhModulesLint: false,
+  enableStrictCheckOHModule: false,
+  disableSendableCheckRules: [],
+  useDeclarationFileSignature: false,
+  customizedOptions: undefined,
+  integratedHsp: false,
+  isPreloadSoEnabled: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  useNormalizedOHMUrl: true,
+  caseSensitiveCheck: true,
+  aceModuleJsonPath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '94c0ad7c5ee272635765786ebf63481804eab74614bade7ca4ef49413e086856',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:22:6.0.2.130:Release',
+  aceModuleRoot: 'D:\\test\\audio-volume-management-master000\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'D:\\test\\audio-volume-management-master000\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'D:\\test\\audio-volume-management-master000\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'D:\\test\\audio-volume-management-master000\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\test\\audio-volume-management-master000\\entry',
+      belongProjectPath: 'D:\\test\\audio-volume-management-master000'
+    },
+    'D:\\test\\audio-volume-management-master000\\entry\\.test\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\test\\audio-volume-management-master000\\entry',
+      belongProjectPath: 'D:\\test\\audio-volume-management-master000'
+    },
+    'D:\\test\\audio-volume-management-master000\\entry\\src\\ohosTest': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\test\\audio-volume-management-master000\\entry',
+      belongProjectPath: 'D:\\test\\audio-volume-management-master000'
+    },
+    'D:\\test\\audio-volume-management-master000\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'D:\\test\\audio-volume-management-master000\\entry',
+      belongProjectPath: 'D:\\test\\audio-volume-management-master000'
+    },
+    'D:\\test\\audio-volume-management-master000': {
+      moduleName: 'audio-volume-management-master000',
+      modulePkgPath: 'D:\\test\\audio-volume-management-master000',
+      belongProjectPath: 'D:\\test\\audio-volume-management-master000'
+    }
+  },
+  pkgJsonFileHash: '7b6aea2150d533aabb33e5212900357d80b6df40e959dc3e25acc41e3d0744b5',
+  allModulePaths: [ 'D:\\test\\audio-volume-management-master000\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: false,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'D:/DevEco Studio/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-06-17T23:31:01.114] [DEBUG] debug-file - Compile arkts with external api path: D:\DevEco Studio\sdk\default\hms\ets
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.116] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-06-17T23:31:01.117] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-06-17T23:31:01.117] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-06-17T23:31:01.117] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 2.06805419921875
+[2026-06-17T23:31:01.118] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-06-17T23:31:01.118] [DEBUG] debug-file - Task 'entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:01.120] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.15582275390625
+[2026-06-17T23:31:01.121] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 363 ms 
+[2026-06-17T23:31:01.121] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2026-06-17T23:31:01.121] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-06-17T23:31:01.122] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:01.122] [DEBUG] debug-file - default@CacheNativeLibs work[1] is submitted.
+[2026-06-17T23:31:01.122] [DEBUG] debug-file - default@CacheNativeLibs work[1] is pushed to ready queue.
+[2026-06-17T23:31:01.122] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-06-17T23:31:01.122] [DEBUG] debug-file - Create  resident worker with id: 22.
+[2026-06-17T23:31:01.123] [DEBUG] debug-file - default@CacheNativeLibs work[1] has been dispatched to worker[22].
+[2026-06-17T23:31:01.123] [DEBUG] debug-file - default@CacheNativeLibs work[1] is dispatched.
+[2026-06-17T23:31:01.123] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.14402008056640625
+[2026-06-17T23:31:02.028] [DEBUG] debug-file - worker[22] has one work done.
+[2026-06-17T23:31:02.028] [DEBUG] debug-file - default@CacheNativeLibs work[1] done.
+[2026-06-17T23:31:02.028] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-06-17T23:31:02.029] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 7 ms 
+[2026-06-17T23:31:08.681] [WARN] debug-file - [33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:30:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:37:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:43:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:49:5
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:73:5
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:80:5
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: D:/test/audio-volume-management-master000/entry/src/main/ets/player/AudioVolumeController.ets:85:5
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+
+[2026-06-17T23:31:08.681] [DEBUG] debug-file - Ark compile task finished.finished time is 21392131073500
+[2026-06-17T23:31:08.682] [DEBUG] debug-file - worker[4] has one work done.
+[2026-06-17T23:31:08.686] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-06-17T23:31:08.687] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-06-17T23:31:08.689] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 5 s 533 ms 
+[2026-06-17T23:31:08.690] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-06-17T23:31:08.690] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-06-17T23:31:08.691] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-06-17T23:31:08.691] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:08.693] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.16231536865234375
+[2026-06-17T23:31:08.694] [DEBUG] debug-file - runTaskFromQueue task cost before running: 11 s 936 ms 
+[2026-06-17T23:31:08.694] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 4 ms 
+[2026-06-17T23:31:08.695] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-06-17T23:31:08.695] [DEBUG] debug-file - File: 'D:\test\audio-volume-management-master000\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-06-17T23:31:08.695] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-06-17T23:31:08.696] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.05791473388671875
+[2026-06-17T23:31:08.696] [DEBUG] debug-file - runTaskFromQueue task cost before running: 11 s 938 ms 
+[2026-06-17T23:31:08.696] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 1 ms 
+[2026-06-17T23:31:08.698] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-06-17T23:31:08.704] [DEBUG] debug-file - Use tool [D:\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  '--pkg-context-path',
+  'D:\\test\\audio-volume-management-master000\\entry\\build\\default\\intermediates\\loader\\default\\pkgContextInfo.json'
+]
+[2026-06-17T23:31:09.112] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-06-17T23:31:09.118] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.42185211181640625
+[2026-06-17T23:31:09.118] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 361 ms 
+[2026-06-17T23:31:09.120] [INFO] debug-file - Finished :entry:default@PackageHap... after 421 ms 
+[2026-06-17T23:31:09.121] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-06-17T23:31:09.127] [DEBUG] debug-file - entry : default@PackingCheck cost memory 0.5664749145507812
+[2026-06-17T23:31:09.128] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 370 ms 
+[2026-06-17T23:31:09.128] [INFO] debug-file - Finished :entry:default@PackingCheck... after 7 ms 
+[2026-06-17T23:31:09.129] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-06-17T23:31:09.129] [WARN] debug-file - No signingConfig found for product default
+[2026-06-17T23:31:09.130] [DEBUG] debug-file - entry : default@SignHap cost memory 0.0520477294921875
+[2026-06-17T23:31:09.130] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 373 ms 
+[2026-06-17T23:31:09.130] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2026-06-17T23:31:09.131] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-06-17T23:31:09.131] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.08615875244140625
+[2026-06-17T23:31:09.131] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 374 ms 
+[2026-06-17T23:31:09.131] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 1 ms 
+[2026-06-17T23:31:09.132] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-06-17T23:31:09.132] [DEBUG] debug-file - entry : assembleHap cost memory 0.0128326416015625
+[2026-06-17T23:31:09.132] [DEBUG] debug-file - runTaskFromQueue task cost before running: 12 s 375 ms 
+[2026-06-17T23:31:09.132] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-06-17T23:31:09.139] [INFO] debug-file - BUILD SUCCESSFUL in 12 s 382 ms 
+[2026-06-17T23:31:09.140] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\AppScope\app.json5 cache by regenerate.
+[2026-06-17T23:31:09.141] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.141] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.142] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\entry\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.142] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\entry\src\main\resources\base\profile\router_map.json cache by regenerate.
+[2026-06-17T23:31:09.142] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-06-17T23:31:09.143] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-06-17T23:31:09.143] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\entry\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.143] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\test\audio-volume-management-master000\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.143] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:4 ms .
+[2026-06-17T23:31:09.143] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\test\audio-volume-management-master000\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\test\audio-volume-management-master000\AppScope\app.json5 cache by regenerate.
+[2026-06-17T23:31:09.144] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\test\audio-volume-management-master000\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\test\audio-volume-management-master000\AppScope\app.json5 cache by regenerate.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\test\audio-volume-management-master000\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\test\audio-volume-management-master000\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-06-17T23:31:09.145] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\test\audio-volume-management-master000\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\test\audio-volume-management-master000\AppScope\app.json5 cache by regenerate.
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\test\audio-volume-management-master000\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:D:\test\audio-volume-management-master000\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2026-06-17T23:31:09.146] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\pack.info cache.
+[2026-06-17T23:31:09.147] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2026-06-17T23:31:09.147] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-06-17T23:31:09.147] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-06-17T23:31:09.148] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-06-17T23:31:09.148] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2026-06-17T23:31:09.148] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2026-06-17T23:31:09.148] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-06-17T23:31:09.148] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\test\audio-volume-management-master000\entry\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\test\audio-volume-management-master000\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\test\audio-volume-management-master000\entry\src\main\resources\base\profile\router_map.json cache by regenerate.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\router_map\default\router_map.json cache.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2026-06-17T23:31:09.149] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\test\audio-volume-management-master000\entry\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\test\audio-volume-management-master000\oh-package.json5 cache by regenerate.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\test\audio-volume-management-master000\entry\src\main\module.json5 cache by regenerate.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\share_config\default\temp-share-config.json cache.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig post-execution cost:1 ms .
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.150] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-06-17T23:31:09.151] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-06-17T23:31:09.151] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2026-06-17T23:31:09.151] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2026-06-17T23:31:09.151] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2026-06-17T23:31:09.152] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.153] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\router_map\default\loader-router-map.json cache by regenerate.
+[2026-06-17T23:31:09.153] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\router_map\default\router_map.json cache by regenerate.
+[2026-06-17T23:31:09.153] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\loader.json cache.
+[2026-06-17T23:31:09.154] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:3 ms .
+[2026-06-17T23:31:09.154] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\test\audio-volume-management-master000\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.154] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:D:\test\audio-volume-management-master000\entry\build-profile.json5 cache by regenerate.
+[2026-06-17T23:31:09.155] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\libs\default cache.
+[2026-06-17T23:31:09.155] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:2 ms .
+[2026-06-17T23:31:09.156] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\test\audio-volume-management-master000\entry\src\main\resources cache by regenerate.
+[2026-06-17T23:31:09.165] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\test\audio-volume-management-master000\AppScope\resources cache by regenerate.
+[2026-06-17T23:31:09.167] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2026-06-17T23:31:09.167] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\router_map\default\router_map.json cache by regenerate.
+[2026-06-17T23:31:09.168] [DEBUG] debug-file - Update task entry:default@CompileResource input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-06-17T23:31:09.168] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default cache.
+[2026-06-17T23:31:09.176] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\test\audio-volume-management-master000\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-06-17T23:31:09.176] [DEBUG] debug-file - Update task entry:default@CompileResource output file:D:\test\audio-volume-management-master000\entry\build\default\generated\r\default cache.
+[2026-06-17T23:31:09.177] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:22 ms .
+[2026-06-17T23:31:09.177] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-06-17T23:31:09.177] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2026-06-17T23:31:09.178] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2026-06-17T23:31:09.179] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-06-17T23:31:09.179] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-06-17T23:31:09.180] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-06-17T23:31:09.180] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-06-17T23:31:09.180] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-06-17T23:31:09.180] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\src\main\ets cache by regenerate.
+[2026-06-17T23:31:09.183] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.183] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:D:\test\audio-volume-management-master000\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-06-17T23:31:09.183] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-06-17T23:31:09.184] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:6 ms .
+[2026-06-17T23:31:09.185] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-06-17T23:31:09.186] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-06-17T23:31:09.187] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-06-17T23:31:09.187] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-06-17T23:31:09.187] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-06-17T23:31:09.188] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.188] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-06-17T23:31:09.189] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:5 ms .
+[2026-06-17T23:31:09.189] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-06-17T23:31:09.189] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-06-17T23:31:09.190] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2026-06-17T23:31:09.190] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2026-06-17T23:31:09.190] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-06-17T23:31:09.190] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\package\default\module.json cache.
+[2026-06-17T23:31:09.191] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2026-06-17T23:31:09.191] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-06-17T23:31:09.192] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-06-17T23:31:09.192] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-06-17T23:31:09.192] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-06-17T23:31:09.196] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-06-17T23:31:09.196] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-06-17T23:31:09.196] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap input file:D:\test\audio-volume-management-master000\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-06-17T23:31:09.197] [DEBUG] debug-file - Update task entry:default@PackageHap output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:7 ms .
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-06-17T23:31:09.198] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\test\audio-volume-management-master000\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-06-17T23:31:09.199] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\test\audio-volume-management-master000\entry\build\default\outputs\default\symbol cache.
+[2026-06-17T23:31:09.199] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:1 ms .
+[2026-06-17T23:31:09.239] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T23:31:09.239] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-17T23:31:09.242] [DEBUG] debug-file - Cleanup worker 0.
+[2026-06-17T23:31:09.242] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-06-17T23:31:09.242] [DEBUG] debug-file - Current idle worker size: 3.
+[2026-06-17T23:31:09.242] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Cleanup worker 1.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Cleanup worker 22.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Worker 22 has been cleaned up.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-17T23:31:09.243] [DEBUG] debug-file - Current resident worker size: 4.
+[2026-06-17T23:31:09.244] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-17T23:31:09.245] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-06-17T23:31:09.246] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:31:09.246] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-17T23:31:09.247] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-06-17T23:31:09.247] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-06-17T23:31:09.257] [DEBUG] debug-file - worker[22] exits with exit code 1.
+[2026-06-21T20:39:25.789] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-06-21T20:39:25.910] [DEBUG] debug-file - env: daemon=true
+[2026-06-21T20:39:25.790] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-06-21T20:39:26.787] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-06-21T20:39:26.805] [DEBUG] debug-file - java daemon started at port 45050 pid 18560
+[2026-06-21T20:39:26.833] [DEBUG] debug-file - session manager: set active socket. socketId=xtdgv_oK1Vctk-QkAAAB
+[2026-06-21T20:39:27.577] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-21T20:39:27.584] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-06-21T20:39:27.586] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-06-21T20:39:27.588] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-06-21T20:39:27.590] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-06-21T20:39:27.593] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-06-21T20:39:27.601] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-06-21T20:39:27.613] [DEBUG] debug-file - Cache service initialization finished in 12 ms 
+[2026-06-21T20:39:27.616] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:39:30.590] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-21T20:39:30.591] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-21T20:39:30.593] [DEBUG] debug-file - Starting plugin build process
+[2026-06-21T20:39:30.593] [DEBUG] debug-file - App plugin prepare start...
+[2026-06-21T20:39:30.594] [DEBUG] debug-file - App plugin prepare end...
+[2026-06-21T20:39:30.594] [DEBUG] debug-file - App plugin creating...
+[2026-06-21T20:39:30.799] [DEBUG] debug-file - App plugin register hook start...
+[2026-06-21T20:39:30.799] [DEBUG] debug-file - App plugin register hook end...
+[2026-06-21T20:39:30.799] [DEBUG] debug-file - Plugin build process completed
+[2026-06-21T20:39:30.801] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-06-21T20:39:30.801] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-06-21T20:39:30.802] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-06-21T20:39:30.802] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-06-21T20:39:30.804] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-06-21T20:39:30.810] [DEBUG] debug-file - not found resModel json file in : D:\test\audio-volume-management-master000\entry\src\ohosTest\module.json5
+[2026-06-21T20:39:30.818] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-06-21T20:39:30.822] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-06-21T20:39:30.829] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-06-21T20:39:30.833] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-06-21T20:39:30.874] [DEBUG] debug-file - Sdk init in 55 ms 
+[2026-06-21T20:39:30.883] [DEBUG] debug-file - Project task initialization takes 7 ms 
+[2026-06-21T20:39:30.883] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-21T20:39:30.883] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:39:30.883] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\hvigorfile.ts
+[2026-06-21T20:39:30.884] [DEBUG] debug-file - hvigorfile, resolving D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:39:30.893] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-06-21T20:39:30.894] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-06-21T20:39:30.894] [DEBUG] debug-file - Starting plugin build process
+[2026-06-21T20:39:30.894] [DEBUG] debug-file - Hap plugin creating...
+[2026-06-21T20:39:30.896] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\test\audio-volume-management-master000\hvigorfile.ts
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- D:\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-06-21T20:39:30.916] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-21T20:39:30.916] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:39:30.917] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:39:30.918] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - Target 'default' config initialized
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-06-21T20:39:30.919] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-06-21T20:39:30.920] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - Module entry task initialization takes 6 ms 
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - Plugin build process completed
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:39:30.927] [DEBUG] debug-file - hvigorfile, resolve finished D:\test\audio-volume-management-master000\entry\hvigorfile.ts
+[2026-06-21T20:39:30.952] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 24 ms 
+[2026-06-21T20:39:30.952] [DEBUG] debug-file - project has submodules:entry
+[2026-06-21T20:39:30.955] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-06-21T20:39:30.963] [DEBUG] debug-file - load to the disk finished
+[2026-06-21T20:39:30.965] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-21T20:39:30.968] [DEBUG] debug-file - Module audio-volume-management-master000 Collected Dependency: 
+[2026-06-21T20:39:30.968] [DEBUG] debug-file - Module audio-volume-management-master000's total dependency: 0
+[2026-06-21T20:39:30.970] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-06-21T20:39:30.974] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-06-21T20:39:30.974] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-06-21T20:39:30.984] [DEBUG] debug-file - Configuration phase cost:3 s 371 ms 
+[2026-06-21T20:39:30.986] [DEBUG] debug-file - Configuration task cost before running: 3 s 393 ms 
+[2026-06-21T20:39:30.987] [DEBUG] debug-file - Executing task :entry:init
+[2026-06-21T20:39:30.988] [DEBUG] debug-file - entry : init cost memory 0.01647186279296875
+[2026-06-21T20:39:30.988] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 395 ms 
+[2026-06-21T20:39:30.989] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-06-21T20:39:30.989] [DEBUG] debug-file - Executing task ::init
+[2026-06-21T20:39:30.989] [DEBUG] debug-file - audio-volume-management-master000 : init cost memory 0.01378631591796875
+[2026-06-21T20:39:30.989] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 396 ms 
+[2026-06-21T20:39:30.990] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-06-21T20:39:31.005] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-06-21T20:39:31.006] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-06-21T20:39:31.014] [DEBUG] debug-file - Cleanup worker 0.
+[2026-06-21T20:39:31.017] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-21T20:39:31.017] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-06-21T20:39:31.014] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-06-21T20:39:31.014] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-06-21T20:39:31.014] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-21T20:39:31.014] [DEBUG] debug-file - Cleanup worker 1.
+[2026-06-21T20:39:31.015] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-06-21T20:39:31.015] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-06-21T20:39:31.015] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-06-21T20:39:31.016] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-06-21T20:39:31.019] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-21T20:39:31.019] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-06-21T20:39:31.024] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-06-21T20:39:31.025] [DEBUG] debug-file - worker[1] exits with exit code 1.
