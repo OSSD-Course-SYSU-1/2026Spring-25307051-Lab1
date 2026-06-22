@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "signingCertificateProfile": "./.signature/debug.p12",
+  "buildMode": "debug",
+  "storePassword": "123456",
+  "keyAlias": "debug",
+  "keyPassword": "123456",
+  "signAlg": "SHA256withECDSA"
+}

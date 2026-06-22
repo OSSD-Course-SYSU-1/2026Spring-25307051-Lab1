@@ -1,0 +1,16 @@
+{
+  "name": "auto-uninstall-plugin",
+  "version": "1.0.0",
+  "description": "HarmonyOS 自动卸载插件 - 在安装前自动卸载旧版本应用",
+  "main": "src/auto-uninstall-plugin.ts",
+  "types": "src/auto-uninstall-plugin.ts",
+  "keywords": [
+    "harmonyos",
+    "hvigor",
+    "plugin",
+    "auto-uninstall",
+    "deploy"
+  ],
+  "author": "",
+  "license": "MIT"
+}

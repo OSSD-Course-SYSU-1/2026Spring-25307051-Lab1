@@ -1,0 +1,84 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "音频流音量管理"
+    },
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "audio_stream_volume",
+      "value": "音频流音量"
+    },
+    {
+      "name": "application_volume",
+      "value": "应用音量"
+    },
+    {
+      "name": "introduction",
+      "value": "本Sample实现音量管理功能，包括："
+    },
+    {
+      "name": "introduction_1",
+      "value": "1、自定义系统音量面板。"
+    },
+    {
+      "name": "introduction_2",
+      "value": "2、通过上下滑手势，调节系统音量。"
+    },
+    {
+      "name": "introduction_3",
+      "value": "3、通过滑动条调节应用音量。"
+    },
+    {
+      "name": "introduction_4",
+      "value": "4、通过滑动条调节音频流音量。"
+    },
+    {
+      "name": "introduction_5",
+      "value": "5、通过开关屏蔽音量按键。"
+    },
+    {
+      "name": "playback_page",
+      "value": "进入播放页"
+    },
+    {
+      "name": "audio_volume_control",
+      "value": "音频音量管理"
+    },
+    {
+      "name": "volume_key_up",
+      "value": "点击了音量按键上"
+    },
+    {
+      "name": "volume_key_down",
+      "value": "点击了音量按键下"
+    },
+    {
+      "name": "setting",
+      "value": "音量设置"
+    },
+    {
+      "name": "disable",
+      "value": "禁用音量键"
+    },
+    {
+      "name": "explanation",
+      "value": "说明"
+    },
+    {
+      "name": "ui_presentation",
+      "value": "仅作UI展示"
+    }
+  ]
+}

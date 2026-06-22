@@ -1,0 +1,17 @@
+# HarmonyOS 签名文件
+.signature/
+*.p12
+*.p7b
+*.cer
+
+# 环境配置文件（包含敏感信息）
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+*.hap

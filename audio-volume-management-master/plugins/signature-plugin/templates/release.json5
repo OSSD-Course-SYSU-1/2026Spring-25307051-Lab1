@@ -1,0 +1,11 @@
+{
+  "name": "release",
+  "signingCertificateProfile": "${HARMONYOS_SIGNATURE_PATH}",
+  "buildMode": "release",
+  "storePassword": "${HARMONYOS_SIGNATURE_PASSWORD}",
+  "keyAlias": "${HARMONYOS_KEY_ALIAS}",
+  "keyPassword": "${HARMONYOS_KEY_PASSWORD}",
+  "signAlg": "SHA256withECDSA",
+  "profileFile": "${HARMONYOS_PROFILE_FILE}",
+  "certpathFile": "${HARMONYOS_CERTPATH_FILE}"
+}

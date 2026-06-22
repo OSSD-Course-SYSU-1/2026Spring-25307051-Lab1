@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\ASUS1\\.ohos\\config\\default_audio-volume-management-master_x9nz_TFOUsr59iGnC7u-OAL2VgDnjoEkiXyrabkVldk=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BFFB3FD8EEA77CD75921DECB05A2EAD0042BD1646EB1BF9AE01E56060C5C1A2EEF9ED6460F825FB",
+          "profile": "C:\\Users\\ASUS1\\.ohos\\config\\default_audio-volume-management-master_x9nz_TFOUsr59iGnC7u-OAL2VgDnjoEkiXyrabkVldk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\ASUS1\\.ohos\\config\\default_audio-volume-management-master_x9nz_TFOUsr59iGnC7u-OAL2VgDnjoEkiXyrabkVldk=.p12",
+          "storePassword": "0000001B60EAF02B28D795E38C0F526BD3C18A7985A3936ED9D0632DE02FDFAA5C2217BBF596504994EE49"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ],
+    },
+  ]
+}

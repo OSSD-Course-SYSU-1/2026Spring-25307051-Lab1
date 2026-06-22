@@ -1,0 +1,84 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Audio stream volume management"
+    },
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "audio_stream_volume",
+      "value": "Audio stream volume"
+    },
+    {
+      "name": "application_volume",
+      "value": "Application volume"
+    },
+    {
+      "name": "introduction",
+      "value": "This Sample implements the volume management function, including:"
+    },
+    {
+      "name": "introduction_1",
+      "value": "1.Custom system volume panel."
+    },
+    {
+      "name": "introduction_2",
+      "value": "2.Adjust the system volume by using up and down swipe gestures."
+    },
+    {
+      "name": "introduction_3",
+      "value": "3.Adjust the application volume by sliding the slider."
+    },
+    {
+      "name": "introduction_4",
+      "value": "4.Adjust the volume of the audio stream by sliding the slider."
+    },
+    {
+      "name": "introduction_5",
+      "value": "5.Disable the volume button through the switch."
+    },
+    {
+      "name": "playback_page",
+      "value": "Enter the playback page"
+    },
+    {
+      "name": "audio_volume_control",
+      "value": "Audio volume control"
+    },
+    {
+      "name": "volume_key_up",
+      "value": "Clicked the up volume button"
+    },
+    {
+      "name": "volume_key_down",
+      "value": "Clicked the down volume button"
+    },
+    {
+      "name": "setting",
+      "value": "Volume setting"
+    },
+    {
+      "name": "disable",
+      "value": "Disable the volume button"
+    },
+    {
+      "name": "explanation",
+      "value": "Explanation"
+    },
+    {
+      "name": "ui_presentation",
+      "value": "Only for UI display"
+    }
+  ]
+}

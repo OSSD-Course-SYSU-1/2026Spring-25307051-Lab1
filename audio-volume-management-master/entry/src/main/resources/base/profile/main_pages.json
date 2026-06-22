@@ -1,0 +1,8 @@
+{
+  "src": [
+    "application/pages/Index",
+    "application/pages/TimerTaskListPage",
+    "application/pages/TimerTaskCreatePage",
+    "application/pages/DistributedSessionPage"
+  ]
+}

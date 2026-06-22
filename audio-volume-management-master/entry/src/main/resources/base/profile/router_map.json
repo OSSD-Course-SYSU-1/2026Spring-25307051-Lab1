@@ -1,0 +1,12 @@
+{
+  "routerMap": [
+    {
+      "name": "player",
+      "pageSourceFile": "src/main/ets/application/pages/Player.ets",
+      "buildFunction": "PlayerBuilder",
+      "data": {
+        "description": "this is player page"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@audio-volume/signature-plugin",
+  "version": "1.0.0",
+  "description": "HarmonyOS签名自动配置插件",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "harmonyos",
+    "signature",
+    "hvigor",
+    "auto-config"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^2.2.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.3.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  },
+  "peerDependencies": {
+    "@ohos/hvigor-ohos-plugin": ">=1.0.0"
+  }
+}
